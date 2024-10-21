@@ -1,9 +1,9 @@
-name: Migrate PR  
+name: Migrate PR
 
 on:
   push:
     branches:
-      - each.value
+      - development
   workflow_dispatch:
 
 jobs:
@@ -15,4 +15,3 @@ jobs:
 
       - name: Hello World
         run: echo "Hello World"
-
